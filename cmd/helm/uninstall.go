@@ -64,7 +64,7 @@ func newUninstallCmd(cfg *action.Configuration, out io.Writer) *cobra.Command {
 					fmt.Fprintln(out, res.Info)
 				}
 
-				fmt.Fprintf(out, "release \"%s\" uninstalled\n", args[i])
+				fmt.Fprintf(out, "Release \"%s\" uninstalled\n", args[i])
 			}
 			return nil
 		},
